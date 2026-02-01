@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const h = document.getElementById("user-heading");
         h.innerText=`User: ${username}`;
+        
 
         try{
 
@@ -64,7 +65,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 throw new Error("User not found");
             }
 
-
+            const total = document.getElementById("user-total");
+            total.innerText = `Total Questions Solved: ${data.totalSolved}/${data.totalQuestions}`
+            
             console.log("Loggin data: ", data);
             console.log("Easy Qs solved: ", data.easySolved);
             console.log("Medium Qs solved: ", data.mediumSolved);
