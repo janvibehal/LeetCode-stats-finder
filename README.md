@@ -103,4 +103,6 @@ Frontend & UI/UX Enthusiast
 
 If you like this project, give it a ⭐ on GitHub!
 
-Just tell me 👍
+## 📄 License
+This project is licensed under the MIT License.
+
