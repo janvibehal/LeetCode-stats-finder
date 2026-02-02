@@ -68,10 +68,10 @@ document.addEventListener("DOMContentLoaded", function() {
             const total = document.getElementById("user-total");
             total.innerText = `Total Questions Solved: ${data.totalSolved}/${data.totalQuestions}`
             
-            console.log("Loggin data: ", data);
-            console.log("Easy Qs solved: ", data.easySolved);
-            console.log("Medium Qs solved: ", data.mediumSolved);
-            console.log("Hard Qs solved: ", data.hardSolved);
+            // console.log("Loggin data: ", data);
+            // console.log("Easy Qs solved: ", data.easySolved);
+            // console.log("Medium Qs solved: ", data.mediumSolved);
+            // console.log("Hard Qs solved: ", data.hardSolved);
 
             easyLabel.textContent = `${data.easySolved} / ${data.totalEasy}`;
             mediumLabel.textContent = `${data.mediumSolved} / ${data.totalMedium}`;
